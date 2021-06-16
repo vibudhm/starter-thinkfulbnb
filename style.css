@@ -146,7 +146,7 @@ footer p {
   }
 }
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 600px) {
   .group {
     flex-direction: row;
   }
@@ -162,11 +162,14 @@ footer p {
   }
   header nav {
     /*
-        Pushes the navigation container down by 8 pixels to make it
+        Pushes the navigation container down by 15 pixels to make it
         present a little better visually within the space.
       */
     margin-top: 15px;
   }
+}
+
+@media all and (min-width: 480px) {
   form button {
     background-color: #ff385c;
     border: none;
