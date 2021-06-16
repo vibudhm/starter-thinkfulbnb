@@ -182,6 +182,10 @@ footer p {
   #about p {
     margin-top: 85px;
   }
+
+  #about img {
+    width: 100%;
+  }
   #ideas img {
     width: 100%;
   }
@@ -189,6 +193,7 @@ footer p {
   #host img {
     width: 100%;
   }
+
   #host p {
     margin-top: 100px;
   }
